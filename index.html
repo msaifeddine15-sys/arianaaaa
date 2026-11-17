@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24171f">
+  <meta name="description" content="Un petit univers de souvenirs et d'amour pour Ariana, de la part de Saifeddine.">
+  <title>Ariana & Saifeddine — Pour toujours ♡</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="pageProgress" class="page-progress" aria-hidden="true"></div>
+  <div class="soft-glow glow-a" aria-hidden="true"></div>
+  <div class="soft-glow glow-b" aria-hidden="true"></div>
+  <div id="heartLayer" class="heart-layer" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a href="#top" class="brand" aria-label="Retour en haut"><span class="brand-letters">A<span>♥</span>S</span><span class="brand-caption">ONE LOVE, ONE LIFETIME</span></a>
+    <nav class="desktop-nav" aria-label="Navigation principale">
+      <a href="#story" data-t="navStory">Notre histoire</a><a href="#gallery" data-t="navPhotos">Nos photos</a><a href="#little-things" data-t="navWords">Petits mots</a><a href="#letter" data-t="navLetter">Ma lettre</a>
+    </nav>
+    <div class="header-actions">
+      <button class="language-switch" id="langBtn" aria-label="Switch to English" title="Switch language"><span id="langIndicator">EN</span><span class="language-arrows">↗</span></button>
+      <button class="sound-button" id="soundBtn" aria-label="Lancer la musique" title="Musique"><span class="sound-symbol" id="soundSymbol">♫</span><span class="sound-label" data-t="musicOn">Musique</span></button>
+      <button class="nav-toggle" id="menuBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile" hidden><a href="#story" data-t="navStory">Notre histoire</a><a href="#gallery" data-t="navPhotos">Nos photos</a><a href="#little-things" data-t="navWords">Petits mots</a><a href="#letter" data-t="navLetter">Ma lettre</a></nav>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="stars" aria-hidden="true"><span>✦</span><span>✧</span><span>✳</span></div>
+      <div class="hero-copy">
+        <div class="overline hero-overline"><span class="little-spark">✳</span> <span data-t="heroEyebrow">UN PETIT SITE POUR MON GRAND AMOUR</span></div>
+        <h1 id="hero-title"><span data-t="heroTitleOne">Mon épouse.</span><em data-t="heroTitleTwo">Mon évidence.</em><span class="hero-underline" data-t="heroTitleThree">Mon pour toujours.</span></h1>
+        <p class="hero-description" data-t="heroDesc">Parmi toutes les histoires que la vie aurait pu écrire, la plus belle est celle où je te retrouve, encore et encore.</p>
+        <div class="hero-cta"><a href="#gallery" class="btn btn-primary"><span data-t="seeMemories">Découvrir nos souvenirs</span><span>↗</span></a><a href="#letter" class="text-link"><span data-t="readLetter">Lire ma lettre</span> <span>↗</span></a></div>
+        <div class="hero-signature"><span class="signature-line"></span><span data-t="heroSignature">Pour Ariana, avec tout mon amour.<br>— Saifeddine</span></div>
+      </div>
+      <div class="hero-art" aria-label="Nos souvenirs en photos">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <figure class="hero-photo hero-main"><img src="assets/photos/19-nouveau.webp" alt="Ariana et Saifeddine" fetchpriority="high"><span class="hero-photo-grain" aria-hidden="true"></span></figure>
+        <figure class="hero-photo hero-secondary"><img src="assets/photos/01-wf.webp" alt="Ariana et Saifeddine ensemble"></figure>
+        <figure class="hero-photo hero-tertiary"><img src="assets/photos/05-wf.webp" alt="Un souvenir du couple"></figure>
+        <div class="art-sticker sticker-love">♡<span data-t="sticker">toi, moi, nous</span></div>
+        <div class="art-star star-one">✺</div><div class="art-star star-two">✧</div>
+        <div class="art-caption">Ariana <i>×</i> Saifeddine <span>·</span> ♾</div>
+      </div>
+      <div class="hero-scroll"><span data-t="scroll">Fais défiler pour découvrir</span><i>↓</i></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-inner"><span>EVERY DAY, I CHOOSE YOU <b>✳</b> YOU & ME <b>✳</b> FOREVER LOOKS GOOD ON US <b>✳</b> MY WIFE, MY WORLD <b>✳</b></span><span>EVERY DAY, I CHOOSE YOU <b>✳</b> YOU & ME <b>✳</b> FOREVER LOOKS GOOD ON US <b>✳</b> MY WIFE, MY WORLD <b>✳</b></span></div></div>
+
+    <section class="intro section-shell" id="story">
+      <div class="chapter-label"><span>01</span><span data-t="chapterStory">NOTRE HISTOIRE</span><span class="chapter-rule"></span></div>
+      <div class="intro-layout">
+        <h2 class="section-title intro-title reveal" data-t="storyTitle">Il y a des rencontres qui deviennent <em>une vie entière.</em></h2>
+        <div class="intro-body reveal"><span class="floating-small-heart">♡</span><p data-t="storyP1">Au début, il y avait deux vies, deux mondes et cette drôle de sensation : quelqu’un, quelque part, allait devenir essentiel.</p><p data-t="storyP2">Puis les messages, les rires, les instants simples et les promesses ont fait leur chemin. Et un jour, le « toi et moi » est devenu <strong>« nous ».</strong></p><p class="italic-note" data-t="storyP3">Aujourd’hui, je ne rêve plus seulement de notre avenir. J’ai la chance de le vivre avec toi.</p></div>
+      </div>
+      <div class="story-stamps reveal" aria-label="Notre histoire entre deux pays"><span>🇲🇦 <span data-t="stamp1">Deux horizons</span></span><span class="stamp-star">✦</span><span>🇨🇭 <span data-t="stamp2">Une seule histoire</span></span><span class="stamp-final">♡</span></div>
+    </section>
+
+    <section class="journey section-shell" id="journey">
+      <div class="journey-card reveal">
+        <div class="journey-head"><span class="eyebrow" data-t="journeyLabel">UNE PETITE ANIMATION, COMME DANS NOTRE PREMIER SITE</span><span class="journey-counter">02 / ∞</span></div>
+        <div class="journey-main"><div><h2 class="section-title" data-t="journeyTitle">De deux chemins à <em>un seul nous.</em></h2><p data-t="journeyDesc">La distance n’a jamais eu le dernier mot. L’amour a trouvé le sien : ensemble.</p><button type="button" id="journeyBtn" class="btn btn-light"><span data-t="journeyBtn">Faire voyager notre cœur</span> <span>↗</span></button><p class="journey-result" id="journeyResult" aria-live="polite" data-t="journeyHint">Un petit voyage symbolique…</p></div>
+        <div class="journey-graphic"><div class="route-label"><span>🇨🇭</span><span class="route-dash"></span><span>🇲🇦</span></div><div class="route-line"><div class="route-plane" id="routePlane">✈</div><span class="route-dot start-dot"></span><span class="route-dot end-dot"></span></div><div class="route-names"><span data-t="journeyFrom">Là où tout a commencé</span><span data-t="journeyTo">Là où nos cœurs se retrouvent</span></div><div class="journey-heart">♥</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-shell" id="gallery">
+      <div class="chapter-label"><span>02</span><span data-t="chapterPhotos">NOTRE PETIT UNIVERS</span><span class="chapter-rule"></span></div>
+      <div class="gallery-heading"><div><h2 class="section-title reveal" data-t="galleryTitle">Des photos. Des sourires. <em>Tout ce qu’on aime.</em></h2><p class="section-lead reveal" data-t="galleryDesc">Pas besoin de légendes parfaites. Chaque image a sa place ici, simplement parce qu’elle fait partie de nous.</p></div><div class="photo-count"><strong>25</strong><span data-t="photoCount">PHOTOS<br>À DÉCOUVRIR</span></div></div>
+      <div class="gallery-grid" id="galleryGrid"><button class="memory tall feature" type="button" data-photo="19" aria-label="Ouvrir le souvenir 1"><img src="assets/photos/19-nouveau.webp" alt="Souvenir personnel 1" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">01 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="1" aria-label="Ouvrir le souvenir 2"><img src="assets/photos/01-wf.webp" alt="Souvenir personnel 2" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">02 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="7" aria-label="Ouvrir le souvenir 3"><img src="assets/photos/07-wf.webp" alt="Souvenir personnel 3" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">03 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="12" aria-label="Ouvrir le souvenir 4"><img src="assets/photos/12-a.webp" alt="Souvenir personnel 4" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">04 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory wide" type="button" data-photo="21" aria-label="Ouvrir le souvenir 5"><img src="assets/photos/21-nouveau.webp" alt="Souvenir personnel 5" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">05 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory wide feature" type="button" data-photo="4" aria-label="Ouvrir le souvenir 6"><img src="assets/photos/04-wf.webp" alt="Souvenir personnel 6" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">06 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory wide" type="button" data-photo="18" aria-label="Ouvrir le souvenir 7"><img src="assets/photos/18-nouveau.webp" alt="Souvenir personnel 7" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">07 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="9" aria-label="Ouvrir le souvenir 8"><img src="assets/photos/09-wf.webp" alt="Souvenir personnel 8" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">08 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory wide" type="button" data-photo="24" aria-label="Ouvrir le souvenir 9"><img src="assets/photos/24-nouveau.webp" alt="Souvenir personnel 9" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">09 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="2" aria-label="Ouvrir le souvenir 10"><img src="assets/photos/02-wf.webp" alt="Souvenir personnel 10" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">10 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory wide" type="button" data-photo="14" aria-label="Ouvrir le souvenir 11"><img src="assets/photos/14-a.webp" alt="Souvenir personnel 11" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">11 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="5" aria-label="Ouvrir le souvenir 12"><img src="assets/photos/05-wf.webp" alt="Souvenir personnel 12" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">12 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular feature" type="button" data-photo="10" aria-label="Ouvrir le souvenir 13"><img src="assets/photos/10-wf.webp" alt="Souvenir personnel 13" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">13 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="22" aria-label="Ouvrir le souvenir 14"><img src="assets/photos/22-nouveau.webp" alt="Souvenir personnel 14" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">14 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="17" aria-label="Ouvrir le souvenir 15"><img src="assets/photos/17-nouveau.webp" alt="Souvenir personnel 15" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">15 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="6" aria-label="Ouvrir le souvenir 16"><img src="assets/photos/06-wf.webp" alt="Souvenir personnel 16" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">16 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="20" aria-label="Ouvrir le souvenir 17"><img src="assets/photos/20-nouveau.webp" alt="Souvenir personnel 17" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">17 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="13" aria-label="Ouvrir le souvenir 18"><img src="assets/photos/13-a.webp" alt="Souvenir personnel 18" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">18 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="8" aria-label="Ouvrir le souvenir 19"><img src="assets/photos/08-wf.webp" alt="Souvenir personnel 19" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">19 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular feature" type="button" data-photo="11" aria-label="Ouvrir le souvenir 20"><img src="assets/photos/11-wf.webp" alt="Souvenir personnel 20" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">20 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="25" aria-label="Ouvrir le souvenir 21"><img src="assets/photos/25-nouveau.webp" alt="Souvenir personnel 21" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">21 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="15" aria-label="Ouvrir le souvenir 22"><img src="assets/photos/15-a.webp" alt="Souvenir personnel 22" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">22 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory wide" type="button" data-photo="3" aria-label="Ouvrir le souvenir 23"><img src="assets/photos/03-wf.webp" alt="Souvenir personnel 23" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">23 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory regular" type="button" data-photo="16" aria-label="Ouvrir le souvenir 24"><img src="assets/photos/16-a.webp" alt="Souvenir personnel 24" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">24 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button>
+<button class="memory tall" type="button" data-photo="23" aria-label="Ouvrir le souvenir 25"><img src="assets/photos/23-nouveau.webp" alt="Souvenir personnel 25" loading="lazy" decoding="async"><span class="memory-shine" aria-hidden="true"></span><span class="memory-index" aria-hidden="true">25 / 25</span><span class="memory-zoom" aria-hidden="true">↗</span></button></div>
+      <div class="gallery-bottom"><span>✿</span><p data-t="galleryBottom">Même les instants les plus simples deviennent précieux quand ils sont à nous.</p><span>✿</span></div>
+    </section>
+
+    <section class="promise-section section-shell" id="little-things">
+      <div class="chapter-label"><span>03</span><span data-t="chapterWords">LES PETITES CHOSES</span><span class="chapter-rule"></span></div>
+      <div class="promise-intro"><h2 class="section-title reveal" data-t="promiseTitle">L’amour, c’est aussi <em>tous les jours.</em></h2><p class="section-lead reveal" data-t="promiseDesc">Pas seulement les grands moments. Tous les petits, surtout.</p></div>
+      <div class="promise-grid">
+        <article class="promise-card reveal"><div class="promise-icon">☼</div><span>01</span><h3 data-t="promise1T">Encore des fous rires.</h3><p data-t="promise1P">Pour les jours lumineux, les journées ordinaires et ceux où il faudra retrouver le sourire.</p></article>
+        <article class="promise-card reveal"><div class="promise-icon">♡</div><span>02</span><h3 data-t="promise2T">Encore de la douceur.</h3><p data-t="promise2P">Dans les mots, dans les silences et dans toutes ces petites attentions qui disent « je t’aime ».</p></article>
+        <article class="promise-card reveal"><div class="promise-icon">✧</div><span>03</span><h3 data-t="promise3T">Encore nous deux.</h3><p data-t="promise3P">Pas besoin d’un monde parfait. Tant qu’on continue de choisir notre équipe préférée : nous.</p></article>
+      </div>
+    </section>
+
+    <section class="play-section section-shell" id="play">
+      <div class="play-panels">
+        <article class="music-panel reveal"><div class="panel-heading"><span>♫</span><span data-t="ourSoundtrack">NOTRE BANDE-SON</span></div><h2 data-t="soundTitle">Une mélodie pour <em>notre éternité.</em></h2><p data-t="soundDesc">Un air tout doux, juste pour accompagner notre petit univers.</p><div class="player"><button id="playBtn" class="player-play" type="button" aria-label="Lire la musique">▶</button><div class="player-info"><span data-t="playerSong">Notre mélodie ♡</span><div class="player-track"><div id="audioFill" class="player-fill"></div></div><div class="player-times"><span id="elapsed">0:00</span><span id="duration">0:00</span></div></div><div class="eq" id="equalizer" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div></div><audio id="audio" preload="metadata" src="assets/music/notre-melodie.mp3" loop></audio></article>
+        <article class="note-panel reveal"><div class="panel-heading"><span>✻</span><span data-t="softWords">MOTS DOUX</span></div><div class="handdrawn-heart">♡</div><blockquote id="quoteText">« Tu es ma pensée préférée, même dans les journées les plus remplies. »</blockquote><button class="outline-link" id="newQuoteBtn" type="button"><span data-t="newQuote">Encore un petit mot</span> <span>↗</span></button><span class="note-corner">S ♡ A</span></article>
+      </div>
+    </section>
+
+    <section class="letter-section section-shell" id="letter">
+      <div class="chapter-label"><span>04</span><span data-t="chapterLetter">UNE LETTRE POUR TOI</span><span class="chapter-rule"></span></div>
+      <div class="letter-layout"><div class="letter-intro"><span class="letter-scribble">To my favorite person ♡</span><h2 class="section-title reveal" data-t="letterTitle">Il y a des choses qui méritent <em>d’être écrites.</em></h2><p class="section-lead reveal" data-t="letterDesc">J’ai gardé quelques mots pour toi. Tu peux ouvrir l’enveloppe quand tu veux.</p><div class="letter-cta-small" data-t="letterTiny">DE SAIFEDDINE · POUR ARIANA</div></div>
+      <button class="envelope-wrap reveal" id="envelopeBtn" type="button" aria-label="Ouvrir la lettre d’amour"><span class="envelope-shadow"></span><span class="envelope"><span class="env-flap"></span><span class="env-paper"><span>My love, Ariana</span><i>♥</i></span><span class="env-front"></span><span class="env-seal">S ♡ A</span></span><span class="env-hint" data-t="envelopeHint">Appuie pour ouvrir ma lettre ↗</span></button></div>
+    </section>
+
+    <section class="fun-section section-shell" id="surprise"><div class="fun-card reveal"><div class="fun-left"><span class="eyebrow" data-t="funEyebrow">UN PEU D’AMOUR, BEAUCOUP DE SOURIRE</span><h2 class="section-title" data-t="funTitle">Tu me choisis <em>encore ?</em></h2><p data-t="funDesc">Une question très sérieuse avec deux excellentes réponses.</p><div class="fun-buttons"><button class="btn btn-primary choose-btn" type="button" data-answer="1" data-t="chooseYes">Oui, pour toujours ♡</button><button class="btn btn-ghost choose-btn" type="button" data-answer="2" data-t="chooseAlways">Évidemment !</button></div><div class="fun-answer" id="funAnswer" aria-live="polite"></div></div><div class="fun-right"><span class="fun-giant">♡</span><div class="fun-small-seal">A <span>+</span> S <span>=</span> ♾</div><span class="fun-orbit-text" data-t="funSticker">TOUJOURS, ENCORE ET ENCORE</span></div></div></section>
+
+    <section class="final-section" id="final"><div class="final-content"><div class="final-sparkles" aria-hidden="true">✦ <span>✧</span> ✦</div><span class="overline" data-t="finalEyebrow">LE PLUS BEAU CHAPITRE, C’EST CELUI QU’ON VIT</span><h2 data-t="finalTitle">Dans mille vies,<br>je te <em>choisirais</em><br>mille fois.</h2><p data-t="finalDesc">Merci d’être ma femme, mon amour et mon endroit préféré dans ce monde.</p><div class="final-sign" data-t="finalSign">Je t’aime, Ariana.<br><span>Pour toujours, Saifeddine ♡</span></div><button type="button" id="surpriseBtn" class="btn btn-outline-light"><span data-t="surpriseBtn">Une dernière surprise</span> <span>✷</span></button></div><div class="final-heart-1" aria-hidden="true">♡</div><div class="final-heart-2" aria-hidden="true">♡</div></section>
+  </main>
+
+  <footer class="footer"><a href="#top" class="footer-brand">A <span>♥</span> S</a><span data-t="footerText">Un petit site fait avec un immense amour.</span><a href="#top" data-t="backTop">Revenir au début ↑</a></footer>
+
+  <div class="modal lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galerie photo" aria-hidden="true" hidden><button class="modal-close" id="lightboxClose" aria-label="Fermer">×</button><button class="lb-arrow lb-prev" id="lbPrev" aria-label="Photo précédente">←</button><figure class="lb-image-wrap"><img id="lightboxImage" alt="Souvenir agrandi"><figcaption class="lb-caption"><span id="lightboxNumber">01 / 25</span><span data-t="lightboxCaption">Un souvenir parmi tant d’autres ♡</span></figcaption></figure><button class="lb-arrow lb-next" id="lbNext" aria-label="Photo suivante">→</button></div>
+  <div class="modal letter-modal" id="letterModal" role="dialog" aria-modal="true" aria-labelledby="letterModalTitle" aria-hidden="true" hidden><div class="letter-paper"><button class="letter-close" id="letterClose" aria-label="Fermer">×</button><div class="paper-overline" data-t="paperOverline">UNE LETTRE QUE TU PEUX RELIRE QUAND TU VEUX</div><div class="paper-ornament">♡</div><h2 id="letterModalTitle" data-t="paperTitle">Mon Ariana,</h2><p data-t="paperP1">Si je pouvais arrêter le temps un instant, ce serait juste pour te regarder et me rappeler à quel point j’ai de la chance que nos chemins se soient trouvés.</p><p data-t="paperP2">J’aime les grandes choses que nous rêvons de construire, mais j’aime tout autant les petites : un rire inattendu, une conversation sans fin, la paix d’être simplement près de toi.</p><p data-t="paperP3">Je ne te promets pas des journées toujours parfaites. Je te promets quelque chose qui compte davantage : de continuer à t’aimer avec patience, respect, tendresse et cette envie de faire de notre histoire un bel endroit où vivre.</p><p data-t="paperP4">Tu n’es plus seulement la personne que j’espérais retrouver. Tu es mon épouse, mon présent, et celle avec qui j’ai envie d’inventer tous les demains.</p><p data-t="paperP5">Et si tout était à recommencer, je choisirais encore le chemin qui me mène à toi.</p><div class="paper-signature"><span data-t="paperSignature">Ton mari, pour toujours</span><strong>Saifeddine ♡</strong></div></div></div>
+  <noscript><p class="noscript">La galerie fonctionne sans JavaScript, mais les surprises et la musique nécessitent JavaScript.</p></noscript>
+</body>
+</html>
